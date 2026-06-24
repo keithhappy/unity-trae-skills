@@ -37,6 +37,16 @@
 - 将页面切换改造成统一的转场入口
 - 尽量保留用户手工微调过的 UI 布局
 
+当前仓库已附带可直接复用的资源：
+
+- `Runtime/Scripts/ScreenTransitionPlayer.cs`
+- `Runtime/Shaders/UITransitionInkSpread.shader`
+- `Runtime/Shaders/UITransitionPixelMosaic.shader`
+- `Runtime/Shaders/UITransitionGlitchSlices.shader`
+- `Runtime/Shaders/UITransitionRadial.shader`
+- `Samples~/Materials/*.mat` 示例材质球
+- `Editor/TransitionMaterialPresetCreator.cs` 一键生成示例材质脚本
+
 适用场景：
 
 - 展项项目
@@ -66,5 +76,8 @@ unity-trae-skills/
 ├─ unity-project-assets-bootstrap/
 │  └─ SKILL.md
 └─ unity-ui-transition-system/
-   └─ SKILL.md
+   ├─ SKILL.md
+   ├─ Editor/
+   ├─ Runtime/
+   └─ Samples~/
 ```

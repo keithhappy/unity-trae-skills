@@ -15,6 +15,23 @@ description: "封装 Unity UI 页面截图转场系统，自动接入 ScreenTran
 - 在现有页面切换逻辑中接入统一的过渡播放入口
 - 尽量不破坏用户已经手工微调过的 UI 布局
 
+## 仓库内已附带的资源
+
+当前 skill 仓库不再只是说明文档，已经包含一套可直接拷贝到 Unity 项目中的基础资源：
+
+- `Runtime/Scripts/ScreenTransitionPlayer.cs`
+- `Runtime/Shaders/UITransitionInkSpread.shader`
+- `Runtime/Shaders/UITransitionPixelMosaic.shader`
+- `Runtime/Shaders/UITransitionGlitchSlices.shader`
+- `Runtime/Shaders/UITransitionRadial.shader`
+- `Samples~/Materials/TraeTransitionInkSpread.mat`
+- `Samples~/Materials/TraeTransitionPixelMosaic.mat`
+- `Samples~/Materials/TraeTransitionGlitchSlices.mat`
+- `Samples~/Materials/TraeTransitionRadial.mat`
+- `Editor/TransitionMaterialPresetCreator.cs`
+
+其中 `Editor/TransitionMaterialPresetCreator.cs` 会在 Unity 菜单中提供一键生成示例材质的入口，适合在你把 Shader 拷入新项目后快速补齐 `Assets/Materials/TraeTransitions` 下的常用材质球。
+
 ## 何时使用
 
 当用户出现以下意图时，应主动使用这个 skill：
