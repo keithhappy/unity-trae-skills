@@ -20,10 +20,7 @@ description: "封装 Unity UI 页面截图转场系统，自动接入 ScreenTran
 当前 skill 仓库不再只是说明文档，已经包含一套可直接拷贝到 Unity 项目中的基础资源：
 
 - `Runtime/Scripts/ScreenTransitionPlayer.cs`
-- `Runtime/Shaders/UITransitionInkSpread.shader`
-- `Runtime/Shaders/UITransitionPixelMosaic.shader`
-- `Runtime/Shaders/UITransitionGlitchSlices.shader`
-- `Runtime/Shaders/UITransitionRadial.shader`
+- `Runtime/Shaders/` 下完整收录当前转场系统使用的 10 个 UI Shader
 - `Samples~/Materials/TraeTransitionInkSpread.mat`
 - `Samples~/Materials/TraeTransitionPixelMosaic.mat`
 - `Samples~/Materials/TraeTransitionGlitchSlices.mat`

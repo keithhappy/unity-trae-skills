@@ -40,10 +40,7 @@
 当前仓库已附带可直接复用的资源：
 
 - `Runtime/Scripts/ScreenTransitionPlayer.cs`
-- `Runtime/Shaders/UITransitionInkSpread.shader`
-- `Runtime/Shaders/UITransitionPixelMosaic.shader`
-- `Runtime/Shaders/UITransitionGlitchSlices.shader`
-- `Runtime/Shaders/UITransitionRadial.shader`
+- `Runtime/Shaders/` 下完整收录当前转场系统使用的 10 个 UI Shader
 - `Samples~/Materials/*.mat` 示例材质球
 - `Editor/TransitionMaterialPresetCreator.cs` 一键生成示例材质脚本
 
